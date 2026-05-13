@@ -42,7 +42,7 @@ Deploy your Polymarket AI Trading System to Render for 24/7 operation.
 1. Go to [dashboard.render.com](https://dashboard.render.com)
 2. Click **"New +"** → **"Blueprint"**
 3. Connect your GitHub account
-4. Select repository: `b1rdmania/polymarket-ai-trading`
+4. Select repository: `thinkpixelIab/polymarket-ai-trading`
 5. Click **"Connect"**
 
 ### 3. Configure Environment Variables

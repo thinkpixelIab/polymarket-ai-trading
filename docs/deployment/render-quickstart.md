@@ -32,7 +32,7 @@ Visit: https://dashboard.render.com/
 ### 2. Create New Blueprint
 - Click **"New +"** → **"Blueprint"**
 - Connect your GitHub account
-- Select: `b1rdmania/polymarket-ai-trading`
+- Select: `thinkpixelIab/polymarket-ai-trading`
 - Click **"Connect"**
 
 ### 3. Add OpenAI API Key

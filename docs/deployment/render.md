@@ -12,7 +12,7 @@ Visit: https://dashboard.render.com/
 ### 2. Connect GitHub
 - Click **"New +"** → **"Blueprint"**
 - Connect your GitHub account
-- Select: `b1rdmania/polymarket-ai-trading`
+- Select: `thinkpixelIab/polymarket-ai-trading`
 
 ### 3. Add Environment Variable
 - Service created: `polymarket-trading-system`
