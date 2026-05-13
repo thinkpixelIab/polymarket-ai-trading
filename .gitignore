@@ -1,60 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-# Python site-packages style (do not use bare "lib/" — it ignores Node src/lib)
-/Lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-ENV/
-env/
-
-# Environment Variables
+# Environment & secrets
 .env
 .env.local
+.env.*.local
 
-# Docker
-data/
-logs/
-dashboard/
+# Dependencies
+node_modules/
+
+# Logs
 *.log
-*.db
+bot.log*
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Build output
+dist/
+build/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Tunnel
-tunnel.log
-cloudflared
+# Editor
+.idea/
+*.swp
+*.swo
 
-# Node
-node_modules/
-
-# Vercel
-.vercel
-
+# Analysis output (raw data dumps, not source)
+out/
+first_line.json
