@@ -1,17 +1,17 @@
 # Polymarket AI Trading System
 
-[![GitHub Org](https://img.shields.io/badge/org-HKUDS--AI-181717?logo=github)](https://github.com/HKUDS-AI)
+[![GitHub Org](https://img.shields.io/badge/org-thinkpixelIab-181717?logo=github)](https://github.com/thinkpixelIab)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
 
 **Paper-only trading tools** for [Polymarket](https://polymarket.com): mean-reversion ideas from research, optional OpenAI scoring, Kelly-style sizing, and a dashboard to watch everything — **no real money moves through this repo by default.**
 
 | | |
 |---|---|
-| **Repository** | **[github.com/HKUDS-AI/polymarket-ai-trading](https://github.com/HKUDS-AI/polymarket-ai-trading)** |
+| **Repository** | **[github.com/thinkpixelIab/polymarket-ai-trading](https://github.com/thinkpixelIab/polymarket-ai-trading)** |
 | **Try the dashboard** | [polymarket-trading-dashboard.vercel.app](https://polymarket-trading-dashboard.vercel.app) |
 | **Stack** | Node.js (Express) · OpenAI · SQLite · static dashboard (Vercel) |
 
-Credit: originated by [b1rdmania](https://github.com/b1rdmania); **maintained by [HKUDS-AI](https://github.com/HKUDS-AI)** · contributions from [@jeanbro7](https://github.com/jeanbro7).
+Credit: originated by [b1rdmania](https://github.com/b1rdmania); upstream [HKUDS-AI](https://github.com/HKUDS-AI) · [@jeanbro7](https://github.com/jeanbro7). **This fork:** [thinkpixelIab](https://github.com/thinkpixelIab).
 
 ---
 
@@ -147,7 +147,7 @@ Everything stays in **paper mode** unless you deliberately build something else.
 1. **Clone and enter the repo**
 
 ```bash
-git clone https://github.com/HKUDS-AI/polymarket-ai-trading.git
+git clone https://github.com/thinkpixelIab/polymarket-ai-trading.git
 cd polymarket-ai-trading
 ```
 
@@ -185,7 +185,7 @@ From the repo root, `package.json` also exposes helpers such as `npm run api` (A
 Good when you want the backend **always online** without your laptop open.
 
 - **Typical cost:** about **\$7/month** for always-on (free tiers may spin down after idle).
-- **Outline:** Render Dashboard → **New** → **Blueprint** → connect **`HKUDS-AI/polymarket-ai-trading`** → add **`OPENAI_API_KEY`** → apply.
+- **Outline:** Render Dashboard → **New** → **Blueprint** → connect **`thinkpixelIab/polymarket-ai-trading`** → add **`OPENAI_API_KEY`** → apply.
 
 **More detail:** [RENDER_QUICKSTART.md](RENDER_QUICKSTART.md) · [RENDER_DEPLOY.md](RENDER_DEPLOY.md) · [docs/deployment/render-quickstart.md](docs/deployment/render-quickstart.md)
 
@@ -311,8 +311,8 @@ Forks and experiments encouraged — stay in **paper** until you genuinely trust
 
 ## Links
 
-- **Repo:** [github.com/HKUDS-AI/polymarket-ai-trading](https://github.com/HKUDS-AI/polymarket-ai-trading)  
-- **Org:** [github.com/HKUDS-AI](https://github.com/HKUDS-AI)  
+- **Repo:** [github.com/thinkpixelIab/polymarket-ai-trading](https://github.com/thinkpixelIab/polymarket-ai-trading)  
+- **Org:** [github.com/thinkpixelIab](https://github.com/thinkpixelIab)  
 - **Dashboard:** [polymarket-trading-dashboard.vercel.app](https://polymarket-trading-dashboard.vercel.app)  
 - **Polymarket:** [polymarket.com](https://polymarket.com)  
 - **Original author:** [@b1rdmania](https://github.com/b1rdmania)

@@ -58,7 +58,7 @@ Historical documentation and design notes.
 1. **Check the guides above** - most questions are answered there
 2. **View logs** - `docker compose logs -f` (local) or Render dashboard (production)
 3. **Health check** - `curl http://localhost:8000/api/health`
-4. **File an issue** - [GitHub Issues](https://github.com/b1rdmania/polymarket-ai-trading/issues)
+4. **File an issue** - [GitHub Issues](https://github.com/thinkpixelIab/polymarket-ai-trading/issues)
 
 ---
 
